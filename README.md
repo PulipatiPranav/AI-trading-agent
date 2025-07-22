@@ -28,4 +28,22 @@ In this milestone, I explored the core concept that powers my trading agent: **R
 
 This cycle continues across many episodes, helping the agent learn optimal strategies through trial and error — just like a human learning from experience.
 
+## 🏗️ Milestone 3: Trading Environment
+
+We built a custom **Gym environment** that simulates a stock market and allows our agent to:
+- Buy (0), Sell (1), or Hold (2) stock
+- Track its account balance, shares held, and net worth
+- Receive a reward based on portfolio growth (profit)
+
+### 🔍 State Space
+The observation returned to the agent includes:
+- Current balance
+- Current stock price
+- Number of shares held
+
+### ✅ Features
+- Handles basic trading logic and transaction simulation
+- Tracks net worth over time
+- Can be used directly with `stable-baselines3` RL models
+
 
