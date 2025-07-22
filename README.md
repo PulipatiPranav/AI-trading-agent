@@ -2,7 +2,7 @@
 
 ## Milestone 1: Fetching & Visualizing Stock Data
 
-In this milestone, we used the `yfinance` library to fetch historical stock data for Apple (AAPL) from Yahoo Finance.
+In this milestone, I used the `yfinance` library to fetch historical stock data for Apple (AAPL) from Yahoo Finance.
 
 ### Features
 - Fetches daily OHLCV data (Open, High, Low, Close, Volume)
@@ -11,7 +11,7 @@ In this milestone, we used the `yfinance` library to fetch historical stock data
   
 ## Milestone 2: Understanding Reinforcement Learning (RL)
 
-In this milestone, I explored the core concept that powers my trading agent: **Reinforcement Learning (RL)**.
+In this milestone, I explored the core concept that powers our trading agent: **Reinforcement Learning (RL)**.
 
 ### Key Concepts
  **Agent**       - The AI model (our trading bot) that makes decisions 
@@ -30,7 +30,7 @@ This cycle continues across many episodes, helping the agent learn optimal strat
 
 ## Milestone 3: Trading Environment
 
-We built a custom **Gym environment** that simulates a stock market and allows our agent to:
+I built a custom **Gym environment** that simulates a stock market and allows our agent to:
 - Buy (0), Sell (1), or Hold (2) stock
 - Track its account balance, shares held, and net worth
 - Receive a reward based on portfolio growth (profit)
