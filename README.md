@@ -1,11 +1,31 @@
 # AI-trading-agent
 
-## 📈 Milestone 1: Fetching & Visualizing Stock Data
+## Milestone 1: Fetching & Visualizing Stock Data
 
 In this milestone, we used the `yfinance` library to fetch historical stock data for Apple (AAPL) from Yahoo Finance.
 
-### 🔍 Features
+### Features
 - Fetches daily OHLCV data (Open, High, Low, Close, Volume)
 - Plots the closing price from 2020–2023
 - Easy to change ticker and date range
   
+## Milestone 2: Understanding Reinforcement Learning (RL)
+
+In this milestone, I explored the core concept that powers my trading agent: **Reinforcement Learning (RL)**.
+
+### Key Concepts
+ **Agent**       - The AI model (our trading bot) that makes decisions 
+ **Environment** - A simulated stock market where the agent can interact and learn 
+ **State**       - A snapshot of the current market: stock price, balance, shares held, etc. 
+ **Action**      - What the agent chooses to do: Buy, Sell, or Hold 
+ **Reward**      - Feedback given to the agent (profit = positive reward, loss = negative reward)
+
+### The RL Loop
+1. Agent observes the current **state**.
+2. Agent takes an **action** (Buy/Sell/Hold).
+3. The **environment** updates the state and gives a **reward**.
+4. Agent **learns** from this and improves over time.
+
+This cycle continues across many episodes, helping the agent learn optimal strategies through trial and error — just like a human learning from experience.
+
+
